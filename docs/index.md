@@ -1,10 +1,11 @@
 <section class="meow-hero">
   <div class="meow-hero__copy">
+    <span class="meow-pill">Telegram Stars · Защищённое подключение · Без панелей</span>
     <h1>мяу мяу воздух</h1>
-    <p>Клиентская справка Telegram-бота для покупки, продления и подключения VPN-доступа.</p>
+    <p>Клиентская справка Telegram-бота: покупка, продление и подключение защищённого доступа на ваших устройствах.</p>
     <div class="meow-hero__actions">
       <a class="meow-button meow-button--primary" href="user-guide/">Начать пользоваться</a>
-      <a class="meow-button" href="devices/">Добавить устройство</a>
+      <a class="meow-button" href="apps/">Скачать приложение</a>
     </div>
   </div>
   <div class="meow-hero__panel" aria-label="Ключевые возможности">
@@ -37,7 +38,7 @@
   <a class="meow-feature-card" href="devices/">
     <span>02</span>
     <h3>Устройства</h3>
-    <p>Бот отправляет ссылку, данные подключения или QR-код для AmneziaWG или Happ.</p>
+    <p>Бот присылает готовую ссылку, файл или QR-код — остаётся импортировать доступ в приложение.</p>
   </a>
   <a class="meow-feature-card" href="payments/">
     <span>03</span>
@@ -57,6 +58,7 @@
     <a href="user-guide/">Пользовательское руководство</a>
     <a href="payments/">Платежи</a>
     <a href="devices/">Устройства</a>
+    <a href="apps/">Приложения</a>
     <a href="faq/">FAQ</a>
   </div>
 </section>

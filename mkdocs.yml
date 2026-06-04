@@ -48,6 +48,7 @@ nav:
   - Пользовательское руководство: user-guide.md
   - Платежи: payments.md
   - Устройства: devices.md
+  - Приложения: apps.md
   - FAQ: faq.md
 
 markdown_extensions:
