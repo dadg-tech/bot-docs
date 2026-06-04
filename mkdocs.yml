@@ -1,0 +1,69 @@
+site_name: мяу мяу воздух
+site_description: Публичная документация для Telegram-бота мяу мяу воздух
+site_url: https://docs.meowair.ru/
+edit_uri: ""
+
+theme:
+  name: material
+  language: ru
+  custom_dir: overrides
+  palette:
+    - scheme: meowair
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на светлую тему
+    - scheme: meowair-light
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на тёмную тему
+  font:
+    text: Geist
+    code: Geist Mono
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - header.autohide
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/Muimuivozduhbot
+      name: Telegram бот
+
+nav:
+  - Обзор: index.md
+  - Пользовательское руководство: user-guide.md
+  - Платежи: payments.md
+  - Устройства: devices.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
